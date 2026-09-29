@@ -19,7 +19,7 @@ public:
     }
 
     // Overloading + operator
-    Distance operator+(Distance& d2)
+    Distance operator-(Distance& d2)
     {
         Distance d3;
 
@@ -37,7 +37,7 @@ int main()
 
     Distance d3;
 
-    d3 = d1 + d2;
+    d3 = d1 - d2;
 
     cout << "\nTotal Feet & Inches: "
          << d3.feet << "'" << d3.inch;
