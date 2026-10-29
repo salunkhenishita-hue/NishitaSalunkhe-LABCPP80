@@ -8,7 +8,7 @@ int main()
     ofstream fout;
     string line;
 
-    fout.open("sample.txt");
+    fout.open("sample.txt,ios::app");
 
     while (fout)
     {
